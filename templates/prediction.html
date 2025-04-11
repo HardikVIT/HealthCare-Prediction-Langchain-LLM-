@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Disease Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/pred.css') }}">
+
+</head>
+<body>
+
+    <h2>Disease Prediction using Symptoms</h2>
+
+    <form id="symptomForm">
+        <label for="symptom1">Symptom 1:</label>
+        <select id="symptom1" name="symptom1">
+            <option value="">Select Symptom</option>
+        </select><br><br>
+
+        <label for="symptom2">Symptom 2:</label>
+        <select id="symptom2" name="symptom2">
+            <option value="">Select Symptom</option>
+        </select><br><br>
+
+        <label for="symptom3">Symptom 3:</label>
+        <select id="symptom3" name="symptom3">
+            <option value="">Select Symptom</option>
+        </select><br><br>
+
+        <button type="submit">Predict Disease</button>
+    </form>
+
+    <h3 id="predictionResult"></h3>
+
+    <script>
+        const symptomsList = [
+            "Abdominal pain", "Belly pain", "Nausea",
+            "Fever", "Cough", "Difficulty breathing",
+            "Joint pain", "Fatigue", "Muscle weakness",
+            "Chest pain", "Fast heart rate", "Shortness of breath",
+            "Blurred vision", "Loss of consciousness",
+            "Bladder discomfort", "Painful urination", "Foul smell of urine",
+            "Jaundice", "Yellowing of eyes",
+            "Excessive hunger", "Unexplained weight loss",
+            "Acne", "Blackheads", "Oily skin",
+            "Depression", "Irritability", "Appetite loss",
+            "Diarrhea",
+            "Sweating", "Headache", "Sensitivity to light",
+            "Back pain", "Leg pain", "Weakness",
+            "Ear pain", "Sore throat", "Swollen",
+            "Weight gain", "Cold intolerance", "Constipation",
+            "Rash", "Itching", "Allergic Reaction",
+            "Abnormal heart rhythm", "Dizziness", "Fainting",
+            "Dry mouth", "Increased thirst", "Frequent urination",
+            "Knee pain", "Stiffness",
+            "Vomiting", "Abdominal cramps", "Bloating",
+            "Persistent cough", "Chest tightness", "Wheezing",
+            "Hair loss", "Sensitivity to cold",
+            "Pale skin",
+            "Abdominal swelling",
+            "Painful joints", "Skin rash", "Sun sensitivity",
+            "Weight loss",
+            "Red skin", "Pus discharge",
+            "Severe headache",
+            "Redness of eyes", "Watery discharge",
+            "Hoarseness", "Difficulty swallowing", "Neck swelling"
+        ];
+
+        const selects = [document.getElementById('symptom1'), document.getElementById('symptom2'), document.getElementById('symptom3')];
+
+        selects.forEach(select => {
+            symptomsList.forEach(symptom => {
+                const option = document.createElement('option');
+                option.value = symptom;
+                option.textContent = symptom;
+                select.appendChild(option);
+            });
+        });
+
+        document.getElementById('symptomForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const selectedSymptoms = [
+                document.getElementById('symptom1').value,
+                document.getElementById('symptom2').value,
+                document.getElementById('symptom3').value
+            ];
+
+            const response = await fetch('http://127.0.0.1:5000/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ symptoms: selectedSymptoms })
+            });
+
+            const data = await response.json();
+            document.getElementById('predictionResult').innerText = "Predicted Disease: " + data.predicted_disease;
+        });
+    </script>
+
+</body>
+</html>
