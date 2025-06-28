@@ -1,0 +1,702 @@
+Symptom 1,Symptom 2,Symptom 3,Disease
+Abdominal pain,Belly pain,Nausea,Gastroenteritis
+Fever,Cough,Difficulty breathing,Pneumonia
+Joint pain,Fatigue,Muscle weakness,Rheumatoid Arthritis
+Chest pain,Fast heart rate,Shortness of breath,Heart Attack
+Bladder discomfort,Painful urination,Foul smell of urine,Urinary Tract Infection (UTI)
+Acne,Blackheads,Oily skin,Acne Vulgaris
+Depression,Irritability,Appetite loss,Major Depressive Disorder
+Abdominal pain,Diarrhea,Vomiting,Food Poisoning
+Fatigue,Fever,Sweating,Tuberculosis
+Headache,Nausea,Sensitivity to light,Migraine
+Back pain,Leg pain,Weakness,Sciatica
+Ear pain,Sore throat,Swollen lymph nodes,Tonsillitis
+Weight gain,Cold intolerance,Constipation,Hypothyroidism
+Rash,Itching,Swelling,Allergic Reaction
+Abnormal heart rhythm,Dizziness,Fainting,Arrhythmia
+Dry mouth,Increased thirst,Frequent urination,Diabetes
+Knee pain,Swelling,Stiffness,Osteoarthritis
+Vomiting,Abdominal cramps,Bloating,Gastroenteritis
+Persistent cough,Chest tightness,Wheezing,Asthma
+Fatigue,Hair loss,Sensitivity to cold,Hypothyroidism
+Weakness,Pale skin,Shortness of breath,Anemia
+Nausea,Vomiting,Abdominal swelling,Pancreatitis
+Painful joints,Skin rash,Sun sensitivity,Lupus
+Loss of appetite,Fatigue,Weight loss,Cancer
+Frequent urination,Increased thirst,Blurred vision,Diabetes
+Fever,Red skin,Pus discharge,Cellulitis
+Nausea,Vomiting,Severe headache,Meningitis
+Redness of eyes,Watery discharge,Itching,Conjunctivitis (Pink Eye)
+Hoarseness,Difficulty swallowing,Neck swelling,Thyroid Disease
+Nausea,Vomiting,Abdominal swelling,Pancreatitis
+Leg pain,Back pain,Weakness,Sciatica
+Diarrhea,Abdominal pain,Vomiting,Food Poisoning
+Abdominal cramps,Vomiting,Bloating,Gastroenteritis
+Difficulty swallowing,Hoarseness,Neck swelling,Thyroid Disease
+Irritability,Depression,Appetite loss,Major Depressive Disorder
+Difficulty swallowing,Neck swelling,Acne,Thyroid Disease
+Severe headache,Weight gain,Nausea,Meningitis
+Itching,Swelling,Rash,Allergic Reaction
+Shortness of breath,Pale skin,Back pain,Anemia
+Ear pain,Stiffness,Knee pain,Osteoarthritis
+Swelling,Stiffness,Acne,Osteoarthritis
+Vomiting,Abdominal swelling,Nausea,Pancreatitis
+Blackheads,Acne,Ear pain,Acne Vulgaris
+Bloating,Abdominal cramps,Vomiting,Gastroenteritis
+Weakness,Shortness of breath,Pale skin,Anemia
+Nausea,Cold intolerance,Weight gain,Hypothyroidism
+Nausea,Belly pain,Back pain,Gastroenteritis
+Appetite loss,Irritability,Depression,Major Depressive Disorder
+Acne,Fever,Cough,Pneumonia
+Vomiting,Severe headache,Chest pain,Meningitis
+Abnormal heart rhythm,Fainting,Dizziness,Arrhythmia
+Increased thirst,Dry mouth,Frequent urination,Diabetes
+Dry mouth,Increased thirst,Frequent urination,Diabetes
+Back pain,Leg pain,Weakness,Sciatica
+Ear pain,Painful joints,Sore throat,Tonsillitis
+Constipation,Cold intolerance,Weight gain,Hypothyroidism
+Weight gain,Redness of eyes,Constipation,Hypothyroidism
+Back pain,Weakness,Leg pain,Sciatica
+Abdominal pain,Belly pain,Nausea,Gastroenteritis
+Nausea,Abdominal swelling,Vomiting,Pancreatitis
+Stiffness,Swelling,Knee pain,Osteoarthritis
+Belly pain,Nausea,Abdominal pain,Gastroenteritis
+Frequent urination,Joint pain,Muscle weakness,Rheumatoid Arthritis
+Vomiting,Nausea,Abdominal swelling,Pancreatitis
+Nausea,Sensitivity to light,Headache,Migraine
+Joint pain,Muscle weakness,Fatigue,Rheumatoid Arthritis
+Appetite loss,Irritability,Depression,Major Depressive Disorder
+Difficulty swallowing,Hoarseness,Nausea,Thyroid Disease
+Oily skin,Acne,Blackheads,Acne Vulgaris
+Oily skin,Acne,Blackheads,Acne Vulgaris
+Frequent urination,Dry mouth,Increased thirst,Diabetes
+Chest pain,Fast heart rate,Shortness of breath,Heart Attack
+Sensitivity to light,Nausea,Headache,Migraine
+Cold intolerance,Constipation,Weight gain,Hypothyroidism
+Fever,Sweating,Fatigue,Tuberculosis
+Vomiting,Severe headache,Nausea,Meningitis
+Weakness,Leg pain,Back pain,Sciatica
+Knee pain,Stiffness,Swelling,Osteoarthritis
+Fatigue,Bladder discomfort,Loss of appetite,Cancer
+Severe headache,Nausea,Vomiting,Meningitis
+Redness of eyes,Dizziness,Fainting,Arrhythmia
+Fever,Difficulty breathing,Abnormal heart rhythm,Pneumonia
+Nausea,Vomiting,Severe headache,Meningitis
+Vomiting,Abdominal pain,Diarrhea,Food Poisoning
+Weakness,Nausea,Leg pain,Sciatica
+Sensitivity to cold,Hair loss,Fatigue,Hypothyroidism
+Hair loss,Fatigue,Sensitivity to cold,Hypothyroidism
+Frequent urination,Fatigue,Increased thirst,Diabetes
+Weakness,Leg pain,Back pain,Sciatica
+Abdominal pain,Painful joints,Sun sensitivity,Lupus
+Nausea,Severe headache,Abnormal heart rhythm,Meningitis
+Wheezing,Persistent cough,Chest tightness,Asthma
+Acne,Blackheads,Oily skin,Acne Vulgaris
+Pus discharge,Fever,Red skin,Cellulitis
+Swelling,Knee pain,Stiffness,Osteoarthritis
+Hair loss,Fatigue,Joint pain,Hypothyroidism
+Vomiting,Bloating,Dry mouth,Gastroenteritis
+Fatigue,Nausea,Hair loss,Hypothyroidism
+Ear pain,Difficulty breathing,Fever,Pneumonia
+Sore throat,Ear pain,Swollen lymph nodes,Tonsillitis
+Abdominal swelling,Vomiting,Nausea,Pancreatitis
+Acne,Oily skin,Blackheads,Acne Vulgaris
+Swollen lymph nodes,Ear pain,Sore throat,Tonsillitis
+Shortness of breath,Weakness,Pale skin,Anemia
+Vomiting,Bloating,Abdominal cramps,Gastroenteritis
+Stiffness,Swelling,Knee pain,Osteoarthritis
+Increased thirst,Frequent urination,Dry mouth,Diabetes
+Increased thirst,Frequent urination,Dry mouth,Diabetes
+Swelling,Rash,Itching,Allergic Reaction
+Itching,Watery discharge,Redness of eyes,Conjunctivitis (Pink Eye)
+Abnormal heart rhythm,Fainting,Dizziness,Arrhythmia
+Hair loss,Fatigue,Sensitivity to cold,Hypothyroidism
+Depression,Irritability,Appetite loss,Major Depressive Disorder
+Frequent urination,Dry mouth,Abdominal pain,Diabetes
+Skin rash,Sun sensitivity,Painful joints,Lupus
+Irritability,Appetite loss,Depression,Major Depressive Disorder
+Shortness of breath,Weakness,Pale skin,Anemia
+Fever,Pus discharge,Red skin,Cellulitis
+Dizziness,Abnormal heart rhythm,Fainting,Arrhythmia
+Vomiting,Abdominal pain,Fever,Food Poisoning
+Abdominal pain,Nausea,Belly pain,Gastroenteritis
+Wheezing,Persistent cough,Chest tightness,Asthma
+Pale skin,Shortness of breath,Weakness,Anemia
+Fainting,Dizziness,Abnormal heart rhythm,Arrhythmia
+Hoarseness,Neck swelling,Difficulty swallowing,Thyroid Disease
+Persistent cough,Rash,Itching,Allergic Reaction
+Frequent urination,Abdominal pain,Increased thirst,Diabetes
+Fainting,Abnormal heart rhythm,Dizziness,Arrhythmia
+Frequent urination,Increased thirst,Blurred vision,Diabetes
+Abdominal swelling,Vomiting,Nausea,Pancreatitis
+Vomiting,Bloating,Abdominal cramps,Gastroenteritis
+Sore throat,Ear pain,Swollen lymph nodes,Tonsillitis
+Sensitivity to cold,Fatigue,Hair loss,Hypothyroidism
+Difficulty breathing,Cough,Fever,Pneumonia
+Abnormal heart rhythm,Dizziness,Headache,Arrhythmia
+Fatigue,Muscle weakness,Joint pain,Rheumatoid Arthritis
+Belly pain,Abdominal pain,Nausea,Gastroenteritis
+Weakness,Back pain,Leg pain,Sciatica
+Oily skin,Blackheads,Nausea,Acne Vulgaris
+Fever,Difficulty breathing,Cough,Pneumonia
+Fatigue,Weakness,Sweating,Tuberculosis
+Nausea,Nausea,Headache,Migraine
+Fever,Pus discharge,Red skin,Cellulitis
+Ear pain,Swollen lymph nodes,Sore throat,Tonsillitis
+Abdominal swelling,Vomiting,Nausea,Pancreatitis
+Swelling,Rash,Itching,Allergic Reaction
+Red skin,Fever,Pus discharge,Cellulitis
+Increased thirst,Dry mouth,Frequent urination,Diabetes
+Joint pain,Fever,Fatigue,Tuberculosis
+Painful urination,Bladder discomfort,Foul smell of urine,Urinary Tract Infection (UTI)
+Abdominal swelling,Vomiting,Nausea,Pancreatitis
+Dizziness,Abnormal heart rhythm,Fainting,Arrhythmia
+Fast heart rate,Shortness of breath,Chest pain,Heart Attack
+Blackheads,Acne,Oily skin,Acne Vulgaris
+Itching,Rash,Swelling,Allergic Reaction
+Fatigue,Fever,Weight gain,Tuberculosis
+Abdominal cramps,Vomiting,Bloating,Gastroenteritis
+Blurred vision,Knee pain,Swelling,Osteoarthritis
+Persistent cough,Wheezing,Chest tightness,Asthma
+Nausea,Headache,Sensitivity to light,Migraine
+Back pain,Leg pain,Weakness,Sciatica
+Fatigue,Fever,Sweating,Tuberculosis
+Dizziness,Fainting,Chest pain,Arrhythmia
+Constipation,Cold intolerance,Weight gain,Hypothyroidism
+Ear pain,Leg pain,Weakness,Sciatica
+Fatigue,Weight loss,Loss of appetite,Cancer
+Nausea,Abdominal swelling,Vomiting,Pancreatitis
+Ear pain,Acne,Blackheads,Acne Vulgaris
+Painful urination,Foul smell of urine,Bladder discomfort,Urinary Tract Infection (UTI)
+Fever,Red skin,Pus discharge,Cellulitis
+Painful joints,Skin rash,Sun sensitivity,Lupus
+Swollen lymph nodes,Sore throat,Ear pain,Tonsillitis
+Fatigue,Joint pain,Muscle weakness,Rheumatoid Arthritis
+Fainting,Abnormal heart rhythm,Dizziness,Arrhythmia
+Sweating,Fatigue,Fever,Tuberculosis
+Increased thirst,Frequent urination,Dry mouth,Diabetes
+Hair loss,Fatigue,Sensitivity to cold,Hypothyroidism
+Leg pain,Weakness,Nausea,Sciatica
+Sensitivity to cold,Fatigue,Hair loss,Hypothyroidism
+Excessive hunger,Wheezing,Chest tightness,Asthma
+Nausea,Headache,Sensitivity to light,Migraine
+Neck swelling,Hoarseness,Difficulty swallowing,Thyroid Disease
+Hair loss,Fatigue,Sensitivity to cold,Hypothyroidism
+Watery discharge,Itching,Redness of eyes,Conjunctivitis (Pink Eye)
+Nausea,Abdominal swelling,Vomiting,Pancreatitis
+Weight gain,Cold intolerance,Constipation,Hypothyroidism
+Increased thirst,Blurred vision,Frequent urination,Diabetes
+Muscle weakness,Joint pain,Fatigue,Rheumatoid Arthritis
+Watery discharge,Itching,Redness of eyes,Conjunctivitis (Pink Eye)
+Increased thirst,Dry mouth,Frequent urination,Diabetes
+Weakness,Nausea,Vomiting,Pancreatitis
+Abdominal pain,Nausea,Belly pain,Gastroenteritis
+Skin rash,Joint pain,Sun sensitivity,Lupus
+Neck swelling,Hoarseness,Difficulty swallowing,Thyroid Disease
+Fatigue,Fatigue,Muscle weakness,Rheumatoid Arthritis
+Painful urination,Bladder discomfort,Foul smell of urine,Urinary Tract Infection (UTI)
+Leg pain,Back pain,Weakness,Sciatica
+Abdominal pain,Diarrhea,Vomiting,Food Poisoning
+Weight gain,Hoarseness,Constipation,Hypothyroidism
+Itching,Swelling,Rash,Allergic Reaction
+Cold intolerance,Weight gain,Excessive hunger,Hypothyroidism
+Abdominal cramps,Vomiting,Abnormal heart rhythm,Gastroenteritis
+Nausea,Vomiting,Abdominal swelling,Pancreatitis
+Muscle weakness,Fatigue,Joint pain,Rheumatoid Arthritis
+Itching,Redness of eyes,Watery discharge,Conjunctivitis (Pink Eye)
+Sun sensitivity,Painful joints,Jaundice,Lupus
+Belly pain,Nausea,Abdominal pain,Gastroenteritis
+Swelling,Rash,Itching,Allergic Reaction
+Sun sensitivity,Fever,Painful joints,Lupus
+Abdominal cramps,Abdominal pain,Vomiting,Gastroenteritis
+Fever,Red skin,Pus discharge,Cellulitis
+Foul smell of urine,Painful urination,Abnormal heart rhythm,Urinary Tract Infection (UTI)
+Vomiting,Redness of eyes,Itching,Conjunctivitis (Pink Eye)
+Bloating,Vomiting,Abdominal cramps,Gastroenteritis
+Chest pain,Nausea,Vomiting,Meningitis
+Oily skin,Blackheads,Acne,Acne Vulgaris
+Persistent cough,Frequent urination,Chest tightness,Asthma
+Depression,Appetite loss,Irritability,Major Depressive Disorder
+Nausea,Abdominal swelling,Vomiting,Pancreatitis
+Itching,Redness of eyes,Jaundice,Conjunctivitis (Pink Eye)
+Weight gain,Depression,Irritability,Major Depressive Disorder
+Redness of eyes,Itching,Watery discharge,Conjunctivitis (Pink Eye)
+Painful urination,Foul smell of urine,Bladder discomfort,Urinary Tract Infection (UTI)
+Cold intolerance,Weight gain,Constipation,Hypothyroidism
+Joint pain,Shortness of breath,Fast heart rate,Heart Attack
+Sun sensitivity,Skin rash,Painful joints,Lupus
+Rash,Itching,Swelling,Allergic Reaction
+Sensitivity to cold,Hair loss,Loss of appetite,Hypothyroidism
+Fatigue,Sweating,Fever,Tuberculosis
+Wheezing,Persistent cough,Loss of appetite,Asthma
+Irritability,Depression,Appetite loss,Major Depressive Disorder
+Cold intolerance,Constipation,Weight gain,Hypothyroidism
+Oily skin,Acne,Blackheads,Acne Vulgaris
+Fatigue,Joint pain,Muscle weakness,Rheumatoid Arthritis
+Chest tightness,Persistent cough,Wheezing,Asthma
+Irritability,Appetite loss,Depression,Major Depressive Disorder
+Chest pain,Fast heart rate,Shortness of breath,Heart Attack
+Painful joints,Dry mouth,Sun sensitivity,Lupus
+Persistent cough,Wheezing,Chest tightness,Asthma
+Appetite loss,Irritability,Depression,Major Depressive Disorder
+Abnormal heart rhythm,Fatigue,Fainting,Arrhythmia
+Nausea,Fatigue,Abdominal swelling,Pancreatitis
+Difficulty swallowing,Depression,Hoarseness,Thyroid Disease
+Pus discharge,Fever,Red skin,Cellulitis
+Cough,Difficulty breathing,Fever,Pneumonia
+Pale skin,Shortness of breath,Weakness,Anemia
+Sensitivity to cold,Fatigue,Hair loss,Hypothyroidism
+Depression,Appetite loss,Irritability,Major Depressive Disorder
+Diarrhea,Abdominal pain,Vomiting,Food Poisoning
+Abdominal pain,Belly pain,Nausea,Gastroenteritis
+Irritability,Depression,Appetite loss,Major Depressive Disorder
+Sore throat,Ear pain,Swollen lymph nodes,Tonsillitis
+Ear pain,Sore throat,Swollen lymph nodes,Tonsillitis
+Foul smell of urine,Painful urination,Joint pain,Urinary Tract Infection (UTI)
+Increased thirst,Dry mouth,Frequent urination,Diabetes
+Back pain,Weakness,Fever,Sciatica
+Fever,Fatigue,Sweating,Tuberculosis
+Pale skin,Nausea,Weakness,Anemia
+Dry mouth,Increased thirst,Frequent urination,Diabetes
+Back pain,Weakness,Leg pain,Sciatica
+Sweating,Fever,Fatigue,Tuberculosis
+Skin rash,Sun sensitivity,Painful joints,Lupus
+Fever,Difficulty breathing,Cough,Pneumonia
+Sensitivity to cold,Hair loss,Fatigue,Hypothyroidism
+Persistent cough,Wheezing,Chest tightness,Asthma
+Blurred vision,Headache,Sensitivity to light,Migraine
+Fatigue,Fever,Sweating,Tuberculosis
+Frequent urination,Increased thirst,Blurred vision,Diabetes
+Vomiting,Nausea,Abdominal swelling,Pancreatitis
+Constipation,Weight gain,Cold intolerance,Hypothyroidism
+Ear pain,Sore throat,Swollen lymph nodes,Tonsillitis
+Fatigue,Fever,Knee pain,Tuberculosis
+Severe headache,Vomiting,Back pain,Meningitis
+Nausea,Hoarseness,Sensitivity to light,Migraine
+Painful urination,Foul smell of urine,Bladder discomfort,Urinary Tract Infection (UTI)
+Headache,Abnormal heart rhythm,Fainting,Arrhythmia
+Neck swelling,Difficulty swallowing,Headache,Thyroid Disease
+Itching,Loss of appetite,Rash,Allergic Reaction
+Weight loss,Fatigue,Loss of appetite,Cancer
+Sensitivity to light,Nausea,Headache,Migraine
+Sun sensitivity,Skin rash,Painful joints,Lupus
+Weight gain,Fatigue,Sweating,Tuberculosis
+Abdominal pain,Vomiting,Diarrhea,Food Poisoning
+Depression,Appetite loss,Abnormal heart rhythm,Major Depressive Disorder
+Fever,Irritability,Appetite loss,Major Depressive Disorder
+Redness of eyes,Watery discharge,Itching,Conjunctivitis (Pink Eye)
+Nausea,Severe headache,Vomiting,Meningitis
+Sensitivity to light,Nausea,Headache,Migraine
+Painful joints,Skin rash,Jaundice,Lupus
+Shortness of breath,Weakness,Pale skin,Anemia
+Bladder discomfort,Foul smell of urine,Painful urination,Urinary Tract Infection (UTI)
+Weight gain,Constipation,Cold intolerance,Hypothyroidism
+Blurred vision,Increased thirst,Frequent urination,Diabetes
+Abdominal pain,Vomiting,Diarrhea,Food Poisoning
+Joint pain,Fatigue,Muscle weakness,Rheumatoid Arthritis
+Chest pain,Shortness of breath,Fast heart rate,Heart Attack
+Oily skin,Blackheads,Acne,Acne Vulgaris
+Knee pain,Stiffness,Swelling,Osteoarthritis
+Vomiting,Nausea,Acne,Pancreatitis
+Severe headache,Nausea,Vomiting,Meningitis
+Abdominal cramps,Vomiting,Bloating,Gastroenteritis
+Difficulty breathing,Fever,Cough,Pneumonia
+Ear pain,Abdominal pain,Sore throat,Tonsillitis
+Pale skin,Shortness of breath,Weakness,Anemia
+Frequent urination,Increased thirst,Dry mouth,Diabetes
+Swelling,Knee pain,Stiffness,Osteoarthritis
+Vomiting,Abdominal swelling,Nausea,Pancreatitis
+Painful joints,Vomiting,Abdominal pain,Food Poisoning
+Appetite loss,Depression,Irritability,Major Depressive Disorder
+Constipation,Cold intolerance,Weight gain,Hypothyroidism
+Fast heart rate,Chest pain,Shortness of breath,Heart Attack
+Blurred vision,Increased thirst,Frequent urination,Diabetes
+Swelling,Rash,Itching,Allergic Reaction
+Fatigue,Sweating,Fever,Tuberculosis
+Abnormal heart rhythm,Fainting,Dizziness,Arrhythmia
+Hair loss,Fatigue,Sensitivity to cold,Hypothyroidism
+Weakness,Back pain,Leg pain,Sciatica
+Fatigue,Increased thirst,Frequent urination,Diabetes
+Sensitivity to light,Headache,Nausea,Migraine
+Cold intolerance,Constipation,Weight gain,Hypothyroidism
+Nausea,Sensitivity to light,Hoarseness,Migraine
+Diarrhea,Vomiting,Abdominal pain,Food Poisoning
+Weakness,Swollen lymph nodes,Sore throat,Tonsillitis
+Back pain,Painful joints,Weakness,Sciatica
+Fatigue,Fever,Sweating,Tuberculosis
+Leg pain,Weakness,Back pain,Sciatica
+Acne,Fainting,Abnormal heart rhythm,Arrhythmia
+Itching,Swelling,Rash,Allergic Reaction
+Ear pain,Swollen lymph nodes,Sore throat,Tonsillitis
+Nausea,Vomiting,Redness of eyes,Meningitis
+Pale skin,Weakness,Shortness of breath,Anemia
+Persistent cough,Chest tightness,Wheezing,Asthma
+Jaundice,Pus discharge,Red skin,Cellulitis
+Pale skin,Abdominal pain,Weakness,Anemia
+Fatigue,Sweating,Fever,Tuberculosis
+Dry mouth,Frequent urination,Increased thirst,Diabetes
+Weight gain,Cold intolerance,Constipation,Hypothyroidism
+Hair loss,Fatigue,Excessive hunger,Hypothyroidism
+Cold intolerance,Weight gain,Constipation,Hypothyroidism
+Abdominal pain,Nausea,Belly pain,Gastroenteritis
+Neck swelling,Difficulty swallowing,Hoarseness,Thyroid Disease
+Hoarseness,Neck swelling,Vomiting,Thyroid Disease
+Bladder discomfort,Nausea,Sensitivity to light,Migraine
+Loss of consciousness,Blurred vision,Acne,Stroke
+Depression,Knee pain,Appetite loss,Major Depressive Disorder
+Hoarseness,Neck swelling,Chest pain,Thyroid Disease
+Difficulty swallowing,Hoarseness,Neck swelling,Thyroid Disease
+Nausea,Belly pain,Abdominal pain,Gastroenteritis
+Fatigue,Fever,Sweating,Tuberculosis
+Pale skin,Shortness of breath,Weakness,Anemia
+Fatigue,Joint pain,Muscle weakness,Rheumatoid Arthritis
+Increased thirst,Dry mouth,Frequent urination,Diabetes
+Bladder discomfort,Foul smell of urine,Painful urination,Urinary Tract Infection (UTI)
+Nausea,Abdominal pain,Vomiting,Food Poisoning
+Abdominal cramps,Bloating,Vomiting,Gastroenteritis
+Knee pain,Stiffness,Swelling,Osteoarthritis
+Weight gain,Constipation,Depression,Hypothyroidism
+Weight loss,Fatigue,Loss of appetite,Cancer
+Vomiting,Nausea,Blurred vision,Pancreatitis
+Sensitivity to cold,Hair loss,Fatigue,Hypothyroidism
+Vomiting,Abnormal heart rhythm,Nausea,Pancreatitis
+Bladder discomfort,Foul smell of urine,Fatigue,Urinary Tract Infection (UTI)
+Painful urination,Foul smell of urine,Bladder discomfort,Urinary Tract Infection (UTI)
+Red skin,Pus discharge,Fever,Cellulitis
+Nausea,Headache,Nausea,Migraine
+Irritability,Appetite loss,Depression,Major Depressive Disorder
+Nausea,Abdominal swelling,Vomiting,Pancreatitis
+Itching,Watery discharge,Redness of eyes,Conjunctivitis (Pink Eye)
+Foul smell of urine,Painful urination,Bladder discomfort,Urinary Tract Infection (UTI)
+Leg pain,Back pain,Abdominal pain,Sciatica
+Irritability,Loss of appetite,Appetite loss,Major Depressive Disorder
+Shortness of breath,Pale skin,Fatigue,Anemia
+Sore throat,Swollen lymph nodes,Dry mouth,Tonsillitis
+Vomiting,Abdominal swelling,Nausea,Pancreatitis
+Acne,Vomiting,Diarrhea,Food Poisoning
+Fast heart rate,Shortness of breath,Chest pain,Heart Attack
+Redness of eyes,Itching,Watery discharge,Conjunctivitis (Pink Eye)
+Vomiting,Bloating,Abdominal cramps,Gastroenteritis
+Abdominal pain,Diarrhea,Vomiting,Food Poisoning
+Blurred vision,Increased thirst,Fatigue,Diabetes
+Fainting,Abnormal heart rhythm,Dizziness,Arrhythmia
+Pale skin,Weakness,Shortness of breath,Anemia
+Fainting,Dizziness,Abnormal heart rhythm,Arrhythmia
+Vomiting,Severe headache,Nausea,Meningitis
+Chest pain,Shortness of breath,Fast heart rate,Heart Attack
+Sensitivity to light,Knee pain,Headache,Migraine
+Fever,Red skin,Pus discharge,Cellulitis
+Rash,Increased thirst,Blurred vision,Diabetes
+Fatigue,Fever,Sweating,Tuberculosis
+Increased thirst,Frequent urination,Dry mouth,Diabetes
+Difficulty breathing,Cough,Fever,Pneumonia
+Nausea,Vomiting,Abdominal swelling,Pancreatitis
+Ear pain,Swollen lymph nodes,Sore throat,Tonsillitis
+Chest pain,Fast heart rate,Shortness of breath,Heart Attack
+Vomiting,Diarrhea,Abdominal pain,Food Poisoning
+Wheezing,Chest tightness,Persistent cough,Asthma
+Increased thirst,Blurred vision,Frequent urination,Diabetes
+Chest pain,Fast heart rate,Shortness of breath,Heart Attack
+Diarrhea,Abdominal pain,Vomiting,Food Poisoning
+Frequent urination,Frequent urination,Blurred vision,Diabetes
+Acne,Yellowing of eyes,Jaundice,Hepatitis
+Diarrhea,Vomiting,Abdominal pain,Food Poisoning
+Vomiting,Weight gain,Abdominal pain,Food Poisoning
+Pale skin,Weakness,Shortness of breath,Anemia
+Rash,Swelling,Itching,Allergic Reaction
+Fever,Fatigue,Sweating,Tuberculosis
+Fatigue,Joint pain,Muscle weakness,Rheumatoid Arthritis
+Shortness of breath,Fast heart rate,Chest pain,Heart Attack
+Rash,Swelling,Itching,Allergic Reaction
+Ear pain,Swollen lymph nodes,Sore throat,Tonsillitis
+Belly pain,Abdominal pain,Nausea,Gastroenteritis
+Nausea,Belly pain,Abdominal pain,Gastroenteritis
+Pale skin,Redness of eyes,Weakness,Anemia
+Sore throat,Swollen lymph nodes,Ear pain,Tonsillitis
+Red skin,Pus discharge,Fever,Cellulitis
+Depression,Irritability,Appetite loss,Major Depressive Disorder
+Neck swelling,Hoarseness,Difficulty swallowing,Thyroid Disease
+Leg pain,Back pain,Weakness,Sciatica
+Stiffness,Knee pain,Swelling,Osteoarthritis
+Weight gain,Constipation,Cold intolerance,Hypothyroidism
+Diarrhea,Vomiting,Abdominal pain,Food Poisoning
+Painful joints,Abnormal heart rhythm,Dizziness,Arrhythmia
+Watery discharge,Weight gain,Itching,Conjunctivitis (Pink Eye)
+Nausea,Belly pain,Abdominal pain,Gastroenteritis
+Joint pain,Muscle weakness,Joint pain,Rheumatoid Arthritis
+Fever,Shortness of breath,Fast heart rate,Heart Attack
+Sensitivity to cold,Fatigue,Jaundice,Hypothyroidism
+Fever,Sweating,Fatigue,Tuberculosis
+Fast heart rate,Shortness of breath,Chest pain,Heart Attack
+Back pain,Weakness,Leg pain,Sciatica
+Pus discharge,Fever,Bladder discomfort,Cellulitis
+Dry mouth,Dry mouth,Increased thirst,Diabetes
+Back pain,Headache,Weakness,Sciatica
+Appetite loss,Irritability,Depression,Major Depressive Disorder
+Shortness of breath,Pale skin,Depression,Anemia
+Fever,Pus discharge,Red skin,Cellulitis
+Belly pain,Nausea,Fatigue,Gastroenteritis
+Swelling,Itching,Rash,Allergic Reaction
+Itching,Rash,Swelling,Allergic Reaction
+Back pain,Blackheads,Acne,Acne Vulgaris
+Knee pain,Stiffness,Swelling,Osteoarthritis
+Back pain,Weakness,Leg pain,Sciatica
+Difficulty swallowing,Neck swelling,Hoarseness,Thyroid Disease
+Fatigue,Joint pain,Muscle weakness,Rheumatoid Arthritis
+Excessive hunger,Stiffness,Swelling,Osteoarthritis
+Blurred vision,Dry mouth,Loss of consciousness,Stroke
+Nausea,Painful urination,Foul smell of urine,Urinary Tract Infection (UTI)
+Swollen lymph nodes,Sore throat,Ear pain,Tonsillitis
+Difficulty breathing,Fever,Cough,Pneumonia
+Shortness of breath,Pale skin,Weakness,Anemia
+Fast heart rate,Shortness of breath,Chest pain,Heart Attack
+Fast heart rate,Chest pain,Shortness of breath,Heart Attack
+Persistent cough,Cold intolerance,Weight gain,Hypothyroidism
+Abdominal pain,Vomiting,Diarrhea,Food Poisoning
+Nausea,Persistent cough,Abnormal heart rhythm,Congestive Heart Failure (CHF)
+Chest tightness,Shortness of breath,Wheezing,COPD
+Fatigue,Swelling in legs,Shortness of breath,Congestive Heart Failure (CHF)
+Fever,Stiff neck,Severe headache,Meningitis
+Weight loss,Night sweats,Persistent cough,Tuberculosis
+Fever,Muscle pain,Bleeding gums,Dengue
+Itchy eyes,Runny nose,Sneezing,Allergic Rhinitis
+Nausea,Vomiting,Severe abdominal pain,Pancreatitis
+Burning urination,Frequent urination,Lower abdominal pain,Urinary Tract Infection
+Joint stiffness,Morning pain,Swelling in joints,Rheumatoid Arthritis
+Confusion,Slurred speech,One-sided weakness,Stroke
+Tremors,Stiff muscles,Slow movement,Parkinson’s Disease
+Dry skin,Weight gain,Fatigue,Hypothyroidism
+Rapid heartbeat,Anxiety,Excessive sweating,Hyperthyroidism
+Diarrhea,Dehydration,Stomach cramps,Cholera
+Back pain,Painful urination,Fever,Kidney Infection
+Sun sensitivity,Butterfly rash,Joint pain,Lupus
+Loss of appetite,Yellowing skin,Dark urine,Hepatitis
+High fever,Body aches,Rashes,Dengue
+Numbness,Vision problems,Muscle weakness,Multiple Sclerosis
+Pus discharge,Nausea,Sweating,Major Depressive Disorder
+Hair loss,Fast heart rate,Fainting,Anemia
+Pale skin,Foul smell of urine,Blackheads,Acne Vulgaris
+Fainting,Sun sensitivity,Constipation,Major Depressive Disorder
+Abdominal cramps,Chest pain,Oily skin,Diabetes
+Knee pain,Bladder discomfort,Fatigue,Arrhythmia
+Chest pain,Redness of eyes,Abnormal heart rhythm,Food Poisoning
+Pale skin,Red skin,Weakness,Meningitis
+Difficulty breathing,Hoarseness,Joint pain,Tonsillitis
+Cough,Persistent cough,Fainting,Stroke
+Abdominal cramps,Cold intolerance,Red skin,Pancreatitis
+Sensitivity to cold,Watery discharge,Oily skin,Asthma
+Sensitivity to cold,Difficulty swallowing,Sore throat,Asthma
+Depression,Severe headache,Fainting,Diabetes
+Bladder discomfort,Leg pain,Red skin,Thyroid Disease
+Blurred vision,Depression,Knee pain,Asthma
+Weakness,Chest tightness,Difficulty breathing,Migraine
+Loss of appetite,Excessive hunger,Frequent urination,Migraine
+Muscle weakness,Cold intolerance,Redness of eyes,Urinary Tract Infection (UTI)
+Redness of eyes,Bloating,Constipation,Stroke
+Chest tightness,Blackheads,Pale skin,Meningitis
+Loss of consciousness,Acne,Irritability,Heart Attack
+Jaundice,Watery discharge,Fatigue,Urinary Tract Infection (UTI)
+Skin rash,Weight gain,Cold intolerance,Heart Attack
+Pale skin,Leg pain,Painful joints,Osteoarthritis
+Oily skin,Blackheads,Depression,Acne Vulgaris
+Chest pain,Fever,Yellowing of eyes,Hypothyroidism
+Painful joints,Foul smell of urine,Weight loss,Conjunctivitis (Pink Eye)
+Painful urination,Shortness of breath,Abdominal swelling,Meningitis
+Yellowing of eyes,Fatigue,Cough,Tuberculosis
+Ear pain,Appetite loss,Dry mouth,Sciatica
+Sore throat,Cough,Stiffness,Migraine
+Sensitivity to light,Depression,Abdominal cramps,Heart Attack
+Wheezing,Difficulty breathing,Diarrhea,Gastroenteritis
+Bloating,Painful joints,Rash,Pneumonia
+Sweating,Depression,Skin rash,Gastroenteritis
+Loss of consciousness,Cough,Persistent cough,Meningitis
+Fast heart rate,Dizziness,Sore throat,Pancreatitis
+Hoarseness,Painful joints,Abdominal cramps,Meningitis
+Fast heart rate,Abdominal pain,Sensitivity to light,Migraine
+Cough,Painful urination,Shortness of breath,Stroke
+Yellowing of eyes,Sore throat,Blurred vision,Diabetes
+Yellowing of eyes,Watery discharge,Itching,Gastroenteritis
+Loss of consciousness,Shortness of breath,Red skin,Arrhythmia
+Fatigue,Dizziness,Abdominal pain,Pneumonia
+Fever,Sensitivity to light,Chest tightness,Pancreatitis
+Difficulty swallowing,Acne,Neck swelling,Thyroid Disease
+Frequent urination,Persistent cough,Sun sensitivity,Meningitis
+Nausea,Blurred vision,Abdominal cramps,Lupus
+Oily skin,Swelling,Knee pain,Osteoarthritis
+Itching,Cold intolerance,Red skin,Allergic Reaction
+Irritability,Redness of eyes,Fainting,Asthma
+Joint pain,Watery discharge,Vomiting,Osteoarthritis
+Cold intolerance,Pale skin,Watery discharge,Migraine
+Fast heart rate,Excessive hunger,Sensitivity to light,Hepatitis
+Constipation,Foul smell of urine,Loss of consciousness,Pancreatitis
+Painful urination,Stiffness,Joint pain,Anemia
+Severe headache,Acne,Foul smell of urine,Urinary Tract Infection (UTI)
+Abdominal cramps,Joint pain,Nausea,Sciatica
+Loss of appetite,Blackheads,Skin rash,Osteoarthritis
+Excessive hunger,Knee pain,Ear pain,Thyroid Disease
+Red skin,Persistent cough,Difficulty swallowing,Gastroenteritis
+Fast heart rate,Bladder discomfort,Wheezing,Tonsillitis
+Bloating,Weight loss,Cold intolerance,Pneumonia
+Increased thirst,Chest pain,Difficulty swallowing,Hypothyroidism
+Weight loss,Bloating,Pus discharge,Stroke
+Difficulty swallowing,Loss of appetite,Cough,Osteoarthritis
+Skin rash,Cough,Stiffness,Pancreatitis
+Pus discharge,Persistent cough,Diarrhea,Asthma
+Headache,Difficulty breathing,Increased thirst,Cellulitis
+Shortness of breath,Nausea,Sensitivity to light,Tonsillitis
+Fainting,Cold intolerance,Chest tightness,Heart Attack
+Pale skin,Swelling,Difficulty breathing,Gastroenteritis
+Diarrhea,Abdominal cramps,Hoarseness,Tuberculosis
+Joint pain,Loss of consciousness,Difficulty breathing,Tuberculosis
+Foul smell of urine,Diarrhea,Abdominal cramps,Food Poisoning
+Skin rash,Pale skin,Diarrhea,Urinary Tract Infection (UTI)
+Pale skin,Pus discharge,Neck swelling,Urinary Tract Infection (UTI)
+Acne,Loss of consciousness,Dry mouth,Urinary Tract Infection (UTI)
+Wheezing,Hoarseness,Difficulty swallowing,Thyroid Disease
+Wheezing,Increased thirst,Diarrhea,Pneumonia
+Weight gain,Increased thirst,Neck swelling,Hypothyroidism
+Chest tightness,Fatigue,Sweating,Cellulitis
+Excessive hunger,Yellowing of eyes,Abnormal heart rhythm,Asthma
+Sweating,Acne,Fever,Gastroenteritis
+Diarrhea,Back pain,Abdominal pain,Gastroenteritis
+Abdominal cramps,Persistent cough,Abnormal heart rhythm,Heart Attack
+Yellowing of eyes,Fatigue,Abdominal swelling,Pneumonia
+Swelling,Watery discharge,Hair loss,Pneumonia
+Loss of consciousness,Dizziness,Abdominal swelling,Cellulitis
+Wheezing,Difficulty breathing,Diarrhea,Osteoarthritis
+Shortness of breath,Loss of appetite,Weight gain,Meningitis
+Abdominal swelling,Difficulty swallowing,Bladder discomfort,Lupus
+Hair loss,Sweating,Constipation,Rheumatoid Arthritis
+Back pain,Appetite loss,Shortness of breath,Sciatica
+Frequent urination,Chest tightness,Fatigue,Thyroid Disease
+Belly pain,Painful joints,Joint pain,Cellulitis
+Severe headache,Painful joints,Rash,Stroke
+Skin rash,Increased thirst,Knee pain,Food Poisoning
+Shortness of breath,Loss of consciousness,Hair loss,Stroke
+Chest pain,Abdominal pain,Muscle weakness,Meningitis
+Weakness,Weight loss,Jaundice,Tuberculosis
+Weight gain,Abdominal cramps,Loss of appetite,Hepatitis
+Headache,Blurred vision,Neck swelling,Pneumonia
+Blackheads,Chest tightness,Severe headache,Meningitis
+Diarrhea,Oily skin,Persistent cough,Food Poisoning
+Fever,Blurred vision,Foul smell of urine,Heart Attack
+Appetite loss,Acne,Foul smell of urine,Allergic Reaction
+Diarrhea,Increased thirst,Weakness,Cancer
+Bladder discomfort,Abdominal swelling,Yellowing of eyes,Tonsillitis
+Increased thirst,Sensitivity to cold,Diarrhea,Pancreatitis
+Watery discharge,Sore throat,Chest pain,Migraine
+Sun sensitivity,Nausea,Weight gain,Rheumatoid Arthritis
+Cough,Itching,Frequent urination,Pneumonia
+Oily skin,Painful joints,Painful urination,Cellulitis
+Dizziness,Painful urination,Sensitivity to cold,Urinary Tract Infection (UTI)
+Fainting,Fatigue,Itching,Cancer
+Swelling,Stiffness,Sensitivity to cold,Meningitis
+Diarrhea,Swelling,Constipation,Tuberculosis
+Dizziness,Jaundice,Loss of consciousness,Rheumatoid Arthritis
+Excessive hunger,Fatigue,Depression,Allergic Reaction
+Belly pain,Constipation,Sensitivity to light,Pneumonia
+Painful urination,Difficulty swallowing,Fever,Meningitis
+Fatigue,Vomiting,Foul smell of urine,Cancer
+Jaundice,Painful urination,Sweating,Major Depressive Disorder
+Wheezing,Nausea,Leg pain,Diabetes
+Neck swelling,Abnormal heart rhythm,Abdominal pain,Tonsillitis
+Irritability,Blackheads,Pale skin,Stroke
+Dizziness,Blackheads,Diarrhea,Urinary Tract Infection (UTI)
+Leg pain,Bladder discomfort,Ear pain,Heart Attack
+Dry mouth,Frequent urination,Hair loss,Anemia
+Diarrhea,Pale skin,Ear pain,Cancer
+Frequent urination,Red skin,Abdominal pain,Cancer
+Wheezing,Difficulty breathing,Oily skin,Anemia
+Frequent urination,Knee pain,Joint pain,Osteoarthritis
+Weight loss,Appetite loss,Fast heart rate,Heart Attack
+Red skin,Wheezing,Rash,Cellulitis
+Dizziness,Difficulty swallowing,Sore throat,Gastroenteritis
+Chest pain,Fatigue,Increased thirst,Acne Vulgaris
+Fainting,Abnormal heart rhythm,Bloating,Tuberculosis
+Itching,Diarrhea,Sweating,Diabetes
+Persistent cough,Appetite loss,Abnormal heart rhythm,Conjunctivitis (Pink Eye)
+Hair loss,Frequent urination,Constipation,Asthma
+Yellowing of eyes,Loss of consciousness,Stiffness,Major Depressive Disorder
+Yellowing of eyes,Neck swelling,Weight gain,Osteoarthritis
+Dry mouth,Leg pain,Neck swelling,Stroke
+Blackheads,Sore throat,Bloating,Major Depressive Disorder
+Sun sensitivity,Abdominal cramps,Persistent cough,Rheumatoid Arthritis
+Blurred vision,Wheezing,Acne,Osteoarthritis
+Chest tightness,Persistent cough,Chest pain,Stroke
+Swollen lymph nodes,Sensitivity to cold,Sensitivity to light,Food Poisoning
+Headache,Dry mouth,Fever,Tonsillitis
+Knee pain,Redness of eyes,Fainting,Meningitis
+Abdominal cramps,Weight loss,Itching,Osteoarthritis
+Muscle weakness,Bladder discomfort,Fainting,Sciatica
+Muscle weakness,Sun sensitivity,Dry mouth,Urinary Tract Infection (UTI)
+Sensitivity to cold,Abdominal cramps,Oily skin,Cancer
+Ear pain,Abdominal pain,Watery discharge,Acne Vulgaris
+Painful urination,Irritability,Red skin,Asthma
+Swollen lymph nodes,Nausea,Foul smell of urine,Acne Vulgaris
+Pale skin,Sun sensitivity,Fast heart rate,Major Depressive Disorder
+Red skin,Blurred vision,Sensitivity to cold,Tuberculosis
+Sweating,Severe headache,Bladder discomfort,Meningitis
+Fever,Increased thirst,Irritability,Diabetes
+Appetite loss,Yellowing of eyes,Swelling,Acne Vulgaris
+Cough,Leg pain,Dizziness,Hepatitis
+Severe headache,Diarrhea,Jaundice,Sciatica
+Fainting,Constipation,Vomiting,Diabetes
+Severe headache,Irritability,Red skin,Lupus
+Fainting,Abdominal cramps,Chest pain,Cancer
+Rash,Muscle weakness,Cold intolerance,Cancer
+Abdominal pain,Chest tightness,Appetite loss,Acne Vulgaris
+Painful joints,Yellowing of eyes,Persistent cough,Osteoarthritis
+Blackheads,Blurred vision,Persistent cough,Pancreatitis
+Stiffness,Constipation,Dizziness,Cancer
+Abdominal pain,Increased thirst,Hoarseness,Diabetes
+Loss of consciousness,Fainting,Irritability,Stroke
+Dry mouth,Abdominal cramps,Diarrhea,Major Depressive Disorder
+Excessive hunger,Pus discharge,Severe headache,Tonsillitis
+Increased thirst,Difficulty swallowing,Abnormal heart rhythm,Pneumonia
+Chest tightness,Muscle weakness,Skin rash,Meningitis
+Swelling,Weight gain,Excessive hunger,Asthma
+Chest tightness,Itching,Headache,Thyroid Disease
+Cough,Sensitivity to cold,Weakness,Food Poisoning
+Muscle weakness,Dizziness,Appetite loss,Hypothyroidism
+Weakness,Constipation,Sore throat,Heart Attack
+Pale skin,Severe headache,Oily skin,Stroke
+Fainting,Dry mouth,Sensitivity to light,Conjunctivitis (Pink Eye)
+Skin rash,Belly pain,Fatigue,Tuberculosis
+Itching,Painful urination,Depression,Tuberculosis
+Diarrhea,Redness of eyes,Sensitivity to cold,Migraine
+Hair loss,Yellowing of eyes,Painful urination,Cellulitis
+Nausea,Back pain,Fatigue,Cancer
+Bladder discomfort,Red skin,Joint pain,Diabetes
+Knee pain,Appetite loss,Sensitivity to light,Osteoarthritis
+Painful joints,Cough,Nausea,Osteoarthritis
+Skin rash,Swollen lymph nodes,Painful joints,Lupus
+Fatigue,Swelling,Abdominal pain,Hepatitis
+Abdominal cramps,Itching,Leg pain,Meningitis
+Swollen lymph nodes,Cough,Headache,Sciatica
+Acne,Jaundice,Blackheads,Diabetes
+Dizziness,Dry mouth,Chest tightness,Hypothyroidism
+Watery discharge,Swollen lymph nodes,Blackheads,Allergic Reaction
+Constipation,Bloating,Loss of consciousness,Tonsillitis
+Weight gain,Neck swelling,Shortness of breath,Conjunctivitis (Pink Eye)
+Fast heart rate,Wheezing,Itching,Arrhythmia
+Abdominal cramps,Dry mouth,Redness of eyes,Major Depressive Disorder
+Rash,Irritability,Fatigue,Allergic Reaction
+Back pain,Loss of appetite,Painful urination,Arrhythmia
+Abdominal swelling,Abdominal pain,Sensitivity to light,Conjunctivitis (Pink Eye)
+Chest pain,Painful urination,Fainting,Lupus
+Skin rash,Hair loss,Leg pain,Allergic Reaction
+Rash,Hoarseness,Difficulty swallowing,Pancreatitis
+Abdominal pain,Ear pain,Nausea,Stroke
+Weight gain,Persistent cough,Joint pain,Allergic Reaction
+Headache,Sore throat,Wheezing,Arrhythmia
+Pus discharge,Foul smell of urine,Hair loss,Pancreatitis
+Swollen lymph nodes,Sore throat,Joint pain,Pneumonia
+Sweating,Abdominal cramps,Depression,Lupus
+Sensitivity to light,Redness of eyes,Bloating,Acne Vulgaris
+Fainting,Redness of eyes,Weight gain,Pneumonia
+Abnormal heart rhythm,Sun sensitivity,Dry mouth,Heart Attack
+Dry mouth,Sweating,Weight loss,Major Depressive Disorder
+Sensitivity to light,Jaundice,Diarrhea,Hypothyroidism
+Vomiting,Cold intolerance,Weight gain,Allergic Reaction
+Sweating,Redness of eyes,Frequent urination,Cellulitis
+Watery discharge,Abdominal pain,Swollen lymph nodes,Urinary Tract Infection (UTI)
