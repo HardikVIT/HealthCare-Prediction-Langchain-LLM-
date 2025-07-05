@@ -82,10 +82,10 @@
             const selectedSymptoms = [
                 document.getElementById('symptom1').value,
                 document.getElementById('symptom2').value,
-                document.getElementById('symptom3').value
+                document.getElementById('symptom3').value,
             ];
 
-            const response = await fetch('http://127.0.0.1:5000/predict', {
+            const response = await fetch('/prediction.html', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -94,9 +94,10 @@
             });
 
             const data = await response.json();
-            document.getElementById('predictionResult').innerText = "Predicted Disease: " + data.predicted_disease;
+            document.getElementById('predictionResult').innerText = "Predicted Disease: " + data.response;
+            console.log(data)
         });
     </script>
-
+         
 </body>
 </html>

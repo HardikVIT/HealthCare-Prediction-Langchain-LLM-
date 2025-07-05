@@ -40,8 +40,14 @@ def mental():
     return render_template('mental.html')
 
 
-@app.route('/prediction.html')
+@app.route('/prediction.html' , methods=['GET','POST'])
 def prediction():
+    if request.method=='POST':
+        data = request.get_json()
+        symptoms = data.get('symptoms', [])
+
+        prediction = predict_disease(symptoms)  # your disease_prediction.py logic
+        return jsonify({'response': prediction})
     return render_template('prediction.html')
 
 # Load models and label encoder
@@ -64,14 +70,5 @@ def predict_disease(chosen_symptoms):
     
     final_disease = le.inverse_transform(majority_vote)
     return final_disease[0]
-@app.route('/predict', methods=['POST'])
-def predict():
-    data = request.get_json()
-    symptoms = data.get('symptoms', [])
-
-    prediction = predict_disease(symptoms)  # your disease_prediction.py logic
-    return jsonify({'predicted_disease': prediction})
-
-
 if __name__ == '__main__':
     app.run(debug=True)
