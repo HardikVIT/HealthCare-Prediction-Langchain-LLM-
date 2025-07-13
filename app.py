@@ -50,7 +50,7 @@ def prediction():
         return jsonify({'response': prediction})
     return render_template('prediction.html')
 
-# Load models and label encoder
+# Load models and label encode
 random_forest_model = joblib.load('models/random_forest_model.pkl')
 naive_bayes_model = joblib.load('models/naive_bayes_model.pkl')
 decision_tree_model = joblib.load('models/decision_tree_model.pkl')
