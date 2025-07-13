@@ -71,4 +71,4 @@ def predict_disease(chosen_symptoms):
     final_disease = le.inverse_transform(majority_vote)
     return final_disease[0]
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)
