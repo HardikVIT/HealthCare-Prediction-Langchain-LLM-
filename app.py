@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import joblib
 import numpy as np
 from scipy.stats import mode
-from consultation import medical_consultation, mental_consultation
+from consultation import medical_consultation, mental_consultation,predicted_consultation
 import pickle
 
 app = Flask(__name__, static_folder='assets', static_url_path='/assets')
@@ -47,7 +47,8 @@ def prediction():
         symptoms = data.get('symptoms', [])
 
         prediction = predict_disease(symptoms)  # your disease_prediction.py logic
-        return jsonify({'response': prediction})
+        diagnose = predicted_consultation(prediction)
+        return jsonify({'response': prediction + "\n" + diagnose})
     return render_template('prediction.html')
 
 # Load models and label encode

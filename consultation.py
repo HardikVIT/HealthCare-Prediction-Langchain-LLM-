@@ -23,7 +23,29 @@ llm = ChatOpenRouter(
     model_name="deepseek/deepseek-r1:free"
 )
 prompt = ChatPromptTemplate.from_template("tell me a short joke about {topic}")
+template_predicted=ChatPromptTemplate.from_template("""
+Input:
+    Disease: {disease}
 
+Response Structure:
+    Summary
+    "{disease} is a common condition. Here's a quick medical brief:"
+
+Diagnosis
+    Key symptoms
+    Common causes
+
+Basic test (if relevant)
+    Treatment
+    First-line meds (OTC/prescription)
+Home care tips
+When to see a doctor
+Urgent Signs
+
+List 2–3 symptoms needing ER care
+Disclaimer
+"Consult a licensed doctor for accurate diagnosis and care."
+""")                                              
 template_medical = ChatPromptTemplate.from_template("""
 MEDICAL CONSULTATION TEMPLATE                                                   
 
@@ -179,10 +201,16 @@ This version enhances clinical value through:
 - Cultural competence considerations  
 - Clear information hierarchy through spacing and section breaks 
 """)
-
+predicted_chain=template_predicted |llm
 medical_chain = template_medical | llm
 mental_chain = template_mental | llm
 
+def predicted_consultation(disease):    
+    predict = predicted_chain.invoke({
+        "disease": f'{disease}'
+    })
+    print("Diaganose | prediction received.")
+    return predict.content.replace('*', '').replace('#', '')
 
 def medical_consultation(age, gender, query):
     print(f"Invoking medical consultation")
