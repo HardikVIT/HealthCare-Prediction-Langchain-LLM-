@@ -78,7 +78,7 @@
 
         document.getElementById('symptomForm').addEventListener('submit', async function(e) {
             e.preventDefault();
-
+            document.getElementById('predictionResult').innerText ="Loading prediction... Please wait.";
             const selectedSymptoms = [
                 document.getElementById('symptom1').value,
                 document.getElementById('symptom2').value,
