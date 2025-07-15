@@ -48,7 +48,7 @@ def prediction():
 
         prediction = predict_disease(symptoms)  # your disease_prediction.py logic
         diagnose = predicted_consultation(prediction)
-        return jsonify({'response': prediction + "\n" + diagnose})
+        return jsonify({'response': prediction + diagnose})
     return render_template('prediction.html')
 
 # Load models and label encode
