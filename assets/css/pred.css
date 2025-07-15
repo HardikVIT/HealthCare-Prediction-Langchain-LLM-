@@ -67,8 +67,7 @@ button:hover {
 #predictionResult {
     margin-top: 30px;
     font-size: 1.3rem;
-    color: #000000;
-    text-align: left;
+    color: #642d2d;
     min-height: 30px;
 }
 
