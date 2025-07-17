@@ -46,7 +46,7 @@ def prediction():
         data = request.get_json()
         symptoms = data.get('symptoms', [])
 
-        prediction = predict_disease(symptoms)  # your disease_prediction.py logic
+        prediction = predict_disease(symptoms)  # your diseease_prediction.py logic
         diagnose = predicted_consultation(prediction)
         return jsonify({'response': prediction + diagnose})
     return render_template('prediction.html')
