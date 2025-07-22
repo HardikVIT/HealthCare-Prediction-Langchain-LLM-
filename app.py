@@ -62,12 +62,11 @@ all_symptoms = joblib.load('models/all_symptoms_list.pkl')
 def predict_disease(chosen_symptoms):
     input_vector = [1 if symptom in chosen_symptoms else 0 for symptom in all_symptoms]
     print(input_vector)
-    # rf_pred = random_forest_model.predict([input_vector])
+    rf_pred = random_forest_model.predict([input_vector])
     nb_pred = naive_bayes_model.predict([input_vector])
     dt_pred = decision_tree_model.predict([input_vector])
     
-    # predictions = np.array([rf_pred, nb_pred, dt_pred])
-    predictions = np.array([ nb_pred, dt_pred])
+    predictions = np.array([rf_pred, nb_pred, dt_pred])
     majority_vote = mode(predictions, axis=0)[0].flatten()
     
     final_disease = le.inverse_transform(majority_vote)
