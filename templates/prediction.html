@@ -95,6 +95,7 @@
 
             const data = await response.json();
             document.getElementById('predictionResult').innerText = "Predicted Disease: " + data.response;
+            document.getElementById('predictionResult').innerText = "Diagnose: " + data.diagnose;
             console.log(data)
         });
     </script>
