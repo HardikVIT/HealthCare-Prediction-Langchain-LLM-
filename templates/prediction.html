@@ -80,7 +80,7 @@
         document.getElementById('symptomForm').addEventListener('submit', async function(e) {
             e.preventDefault();
             document.getElementById('predictionResult').innerText ="";
-            document.getElementById('DiagnoseResult').innerText ="DiagnoseResult";
+            document.getElementById('DiagnoseResult').innerText ="Loading Diaganose...";
             const selectedSymptoms = [
                 document.getElementById('symptom1').value,
                 document.getElementById('symptom2').value,
@@ -105,7 +105,7 @@
                 body: JSON.stringify({ disease: data.response })
             });
             const data2 = await diagnose.json();
-            document.getElementById('DiagnoseResult').innerText = "Diagnose: " + data2.response;
+            document.getElementById('DiagnoseResult').innerText = data2.response;
         });
     </script>
          
