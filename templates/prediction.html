@@ -79,6 +79,7 @@
         document.getElementById('symptomForm').addEventListener('submit', async function(e) {
             e.preventDefault();
             document.getElementById('predictionResult').innerText ="Loading prediction... Please wait.";
+            document.getElementById('DiagnoseResult').innerText ="";
             const selectedSymptoms = [
                 document.getElementById('symptom1').value,
                 document.getElementById('symptom2').value,
@@ -95,8 +96,15 @@
 
             const data = await response.json();
             document.getElementById('predictionResult').innerText = "Predicted Disease: " + data.response;
-            document.getElementById('predictionResult').innerText = "Diagnose: " + data.diagnose;
-            console.log(data)
+            const diagnose = await fetch('/pred', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ disease: data.response })
+            });
+            const data2 = await response.json();
+            document.getElementById('DiagnoseResult').innerText = "Diagnose: " + data2.response;
         });
     </script>
          

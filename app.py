@@ -47,9 +47,16 @@ def prediction():
         symptoms = data.get('symptoms', [])
 
         prediction = predict_disease(symptoms)  # your diseease_prediction.py logic
-        diagnose = predicted_consultation(prediction)
-        return jsonify({'response': prediction ,'diagnose':diagnose})
+        return jsonify({'response': prediction })
     return render_template('prediction.html')
+
+@app.route('/pred' , methods=['GET','POST'])
+def pred():
+    if request.method=='POST':
+        data = request.get_json()
+        disease = data.get('disease')
+        prediction = predicted_consultation(disease)  
+        return jsonify({'response': prediction })
 
 # Load models and label encode
 random_forest_model = joblib.load('models/random_forest_model.pkl')
