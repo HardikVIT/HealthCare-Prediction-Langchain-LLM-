@@ -146,9 +146,9 @@ Example: "I hear you're experiencing [specific emotion] around [situation]. Many
 
 2. Contextual Exploration  
 Include 2-3 reflective prompts to deepen self-awareness:  
-- "How has this situation impacted your daily routines?"  
-- "What moments bring slight relief from these feelings?"  
-- "How does this compare to previous challenges you've navigated?"
+  "How has this situation impacted your daily routines?"  
+  "What moments bring slight relief from these feelings?"  
+  "How does this compare to previous challenges you've navigated?"
 
 3. Tiered Support Strategies  
 A. Stress Management (Customized to reported level 1-10):  
@@ -157,49 +157,51 @@ For 5-7: Structured worry time + progressive muscle relaxation
 For 8-10: Crisis containment strategies (temperature modulation, safe space visualization)  
 
 B. Sleep Optimization:  
-- Circadian rhythm adjustment techniques  
-- Sensory reduction checklist for sleep environments  
-- Wind-down routine development guidelines  
+  Circadian rhythm adjustment techniques  
+  Sensory reduction checklist for sleep environments  
+  Wind-down routine development guidelines  
 
 C. Mood Support:  
-- Emotional tracking worksheet suggestions  
-- Behavioral activation planning templates  
-- Social connection micro-goals  
+  Emotional tracking worksheet suggestions  
+  Behavioral activation planning templates  
+  Social connection micro-goals  
 
 4. Progress Monitoring Guidance  
-- Recommended self-check intervals (e.g., daily mood journaling)  
-- Progress measurement indicators (e.g., sleep efficiency tracking)  
-- Warning sign documentation (escalation patterns to watch for)  
+  Recommended self-check intervals (e.g., daily mood journaling)  
+  Progress measurement indicators (e.g., sleep efficiency tracking)  
+  Warning sign documentation (escalation patterns to watch for)  
 
 5. Professional Support Pathways  
-- Indicators for considering therapy (specific functional impairments)  
-- Types of specialists (CBT practitioners vs. somatic therapists)  
-- Preparation checklist for first therapy session  
+  Indicators for considering therapy (specific functional impairments)  
+  Types of specialists (CBT practitioners vs. somatic therapists)  
+  Preparation checklist for first therapy session  
 
 6. Ongoing Support Reminders  
-- Community resource suggestions (support groups, helplines)  
-- Micro-self-care rituals (60-second breathing sequences)  
-- Emergency contact information for crisis situations  
+  Community resource suggestions (support groups, helplines)  
+  Micro-self-care rituals (60-second breathing sequences)  
+  Emergency contact information for crisis situations  
 
 7. Closing Reinforcement  
 Personalized affirmation recognizing client strengths:  
-"Your willingness to address these challenges shows remarkable resilience. Each small effort contributes to meaningful change."
+Your willingness to address these challenges shows remarkable resilience. Each small effort contributes to meaningful change.
 
 Professional Note:  
-"This supportive guidance does not constitute medical advice or formal therapy. Individual experiences vary significantly, and persistent difficulties should be addressed with licensed mental health professionals. If you experience thoughts of self-harm or harm to others, please contact [local emergency services] immediately."
+This supportive guidance does not constitute medical advice or formal therapy. Individual experiences vary significantly, and persistent difficulties should be addressed with licensed mental health professionals. If you experience thoughts of self-harm or harm to others, please contact [local emergency services] immediately.
 
 Sample Opening:  
-"Thank you for trusting me with these personal experiences. Let's work together to explore constructive ways to navigate this situation..."
+Thank you for trusting me with these personal experiences. Let's work together to explore constructive ways to navigate this situation...
 
 [Proceed with structured support using above framework]
 
 This version enhances clinical value through:  
-- Trauma-informed care principles  
-- Tiered intervention strategies  
-- Progress monitoring systems  
-- Crisis resource integration  
-- Cultural competence considerations  
-- Clear information hierarchy through spacing and section breaks 
+  Trauma-informed care principles  
+  Tiered intervention strategies  
+  Progress monitoring systems  
+  Crisis resource integration  
+  Cultural competence considerations  
+  Clear information hierarchy through spacing and section breaks 
+                                                   
+
 """)
 predicted_chain=template_predicted |llm
 medical_chain = template_medical | llm
