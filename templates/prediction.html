@@ -30,6 +30,7 @@
     </form>
 
     <h3 id="predictionResult"></h3>
+    <h3 id="DiagnoseResult"></h3>
 
     <script>
         const symptomsList = [
@@ -78,8 +79,8 @@
 
         document.getElementById('symptomForm').addEventListener('submit', async function(e) {
             e.preventDefault();
-            document.getElementById('predictionResult').innerText ="Loading prediction... Please wait.";
-            document.getElementById('DiagnoseResult').innerText ="";
+            document.getElementById('predictionResult').innerText ="";
+            document.getElementById('DiagnoseResult').innerText ="DiagnoseResult";
             const selectedSymptoms = [
                 document.getElementById('symptom1').value,
                 document.getElementById('symptom2').value,
@@ -103,7 +104,7 @@
                 },
                 body: JSON.stringify({ disease: data.response })
             });
-            const data2 = await response.json();
+            const data2 = await diagnose.json();
             document.getElementById('DiagnoseResult').innerText = "Diagnose: " + data2.response;
         });
     </script>
